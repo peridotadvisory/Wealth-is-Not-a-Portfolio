@@ -1,7 +1,7 @@
 
-  # Create white paper
+  # Update white paper code
 
-  This is a code bundle for Create white paper. The original project is available at https://www.figma.com/design/AseB9VQ63OsgtwKQmp7xpI/Create-white-paper.
+  This is a code bundle for Update white paper code. The original project is available at https://www.figma.com/design/dvEDYliMqQ1TcRBXnjSvyY/Update-white-paper-code.
 
   ## Running the code
 
