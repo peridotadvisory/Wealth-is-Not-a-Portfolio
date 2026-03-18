@@ -96,10 +96,4 @@ export function PortfolioIllusion() {
 </div>
 
         {/* Page number */}
-        <div className="text-center mt-12 font-['Inter'] text-sm text-[#1a1a1a]/40">
-          4
-        </div>
-      </div>
-    </div>
-  );
-}
+        <div c
