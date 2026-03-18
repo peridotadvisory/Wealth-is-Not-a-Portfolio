@@ -1,26 +1,26 @@
 export function KeyInsights() {
   const insights = [
-    {
-      title: "Wealth is a system",
-      description: "Not a collection of assets. A capital system is designed to compound across cycles through multiple independent return mechanisms.",
-      icon: "🏛️"
-    },
-    {
-      title: "Volatility is part of growth",
-      description: "Volatility is not the enemy—fragility is. Well-designed systems can tolerate volatility in growth engines while maintaining foundation stability.",
-      icon: "📈"
-    },
-    {
-      title: "Multiple engines increase durability",
-      description: "Diversification across return mechanisms—not just asset classes—creates redundancy. When one engine falters, others compensate.",
-      icon: "⚙️"
-    },
-    {
-      title: "Capital architecture matters",
-      description: "Structure determines outcomes. The same assets organized as a portfolio versus organized as a system produce fundamentally different risk profiles.",
-      icon: "🏗️"
-    },
-  ];
+  {
+    title: "Wealth is a coordinated capital system",
+    description: "Enduring wealth is not a collection of holdings. It is capital organized intentionally across distinct roles and mechanisms.",
+    icon: "🏛️"
+  },
+  {
+    title: "Continuity matters more than isolated returns",
+    description: "Outcomes are shaped not only by average return, but by whether the system can remain intact through stress, need, and opportunity.",
+    icon: "⏳"
+  },
+  {
+    title: "Multiple engines reduce systemic fragility",
+    description: "Diversification is strongest when it reduces shared failure modes rather than merely increasing the number of holdings.",
+    icon: "⚙️"
+  },
+  {
+    title: "Architecture determines endurance",
+    description: "Structure governs whether capital can function, adapt, and compound across changing market and life conditions.",
+    icon: "🏗️"
+  },
+];
 
   return (
     <div className="min-h-screen bg-white px-6 md:px-12 py-16 md:py-24">
@@ -58,20 +58,20 @@ export function KeyInsights() {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-[#b8a66a] rounded-full mt-2 flex-shrink-0" />
                 <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/90 leading-relaxed">
-                  Separate foundation capital from growth capital. The foundation provides stability; the growth layer pursues compounding.
-                </p>
+  Separate foundation, stability, and expansion so each layer can serve its intended role.
+</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-[#b8a66a] rounded-full mt-2 flex-shrink-0" />
                 <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/90 leading-relaxed">
-                  Build multiple return engines with uncorrelated failure modes. Enterprise capital, structural assets, income strategies, market exposure.
-                </p>
+  Calibrate the system to the investor’s actual needs rather than assuming standardized growth and withdrawal patterns.
+</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-[#b8a66a] rounded-full mt-2 flex-shrink-0" />
                 <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/90 leading-relaxed">
-                  Maintain liquidity for opportunistic deployment. Dry powder is not idle capital—it is optionality.
-                </p>
+  Preserve liquidity and optionality so stress does not automatically become forced action.
+</p>
               </div>
             </div>
 
@@ -79,20 +79,20 @@ export function KeyInsights() {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-[#b8a66a] rounded-full mt-2 flex-shrink-0" />
                 <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/90 leading-relaxed">
-                  Accept volatility in individual engines as long as the system remains stable. Focus on durability, not smoothness.
-                </p>
+  Diversify across mechanisms and failure modes, not just securities, sectors, or wrappers.
+</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-[#b8a66a] rounded-full mt-2 flex-shrink-0" />
                 <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/90 leading-relaxed">
-                  Design for modularity. Each engine should be replaceable or upgradable without disrupting the entire system.
-                </p>
+  Accept volatility where the system can bear it, rather than demanding every engine behave like a reserve asset.
+</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-[#b8a66a] rounded-full mt-2 flex-shrink-0" />
                 <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/90 leading-relaxed">
-                  Optimize for compounding over decades, not performance over quarters. Time is the ultimate advantage.
-                </p>
+  Design for continuity first, because continuity is what allows compounding to persist.
+</p>
               </div>
             </div>
           </div>
@@ -101,8 +101,8 @@ export function KeyInsights() {
         {/* Closing Thought */}
         <div className="text-center max-w-3xl mx-auto">
           <p className="font-['Playfair_Display'] text-2xl md:text-3xl text-[#1a1a1a] leading-relaxed italic mb-6">
-            "The families and institutions that endure across generations do not do so by avoiding risk. 
-            They do so by building systems that can absorb it."
+            "The systems that endure are not those that avoid all stress.
+They are those that are built to remain intact through it."
           </p>
           <div className="w-24 h-px bg-[#b8a66a] mx-auto" />
         </div>

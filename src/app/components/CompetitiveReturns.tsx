@@ -7,32 +7,32 @@ export function CompetitiveReturns() {
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 mb-16">
-          <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
-            <p>
-              The conventional wisdom in finance is that higher returns require accepting higher risk. This is true within a portfolio framework. It is not true within a capital system framework.
-            </p>
-            <p>
-              Risk, in the portfolio model, is measured as volatility. More volatility equals more risk. But volatility is not the same as fragility. Volatility is short-term price fluctuation. Fragility is structural vulnerability to permanent loss.
-            </p>
-            <p>
-              A capital system can tolerate high volatility in individual engines because the system as a whole is not dependent on any single engine's performance at any given moment. A portfolio cannot tolerate volatility in the same way, because it has no structural redundancy.
-            </p>
-          </div>
+  <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
+    <p>
+      The Enduring Value Framework is not anti-market and it is not anti-performance. It does not reject returns. It rejects overburdening a single engine with every responsibility inside a wealth system.
+    </p>
+    <p>
+      Within a portfolio framework, higher return usually implies higher volatility. But volatility and fragility are not the same. Volatility is movement. Fragility is structural vulnerability to interruption or permanent impairment.
+    </p>
+    <p>
+      A well-designed capital system can tolerate volatility in selected expansion engines because the system as a whole is not dependent on one source of performance at every moment.
+    </p>
+  </div>
 
-          <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
-            <p>
-              This distinction is critical. Capital systems can pursue concentrated, high-conviction opportunities in the growth layer while maintaining stability in the foundation layer. The portfolio model forces a choice: either accept fragility through concentration, or accept mediocrity through over-diversification.
-            </p>
-            <p>
-              The result is that well-designed capital systems can achieve competitive returns without the fragility that typically accompanies them. Not by eliminating volatility, but by building architectures that can absorb it.
-            </p>
-          </div>
-        </div>
+  <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
+    <p>
+      That distinction creates room for competitive outcomes from a structurally stronger base. Stability engines preserve continuity. Expansion engines pursue asymmetry. The result is not lower ambition. It is better architecture.
+    </p>
+    <p>
+      This is the core shift: EVF does not seek to eliminate risk. It seeks to position risk where it can be borne without threatening the integrity of the full system.
+    </p>
+  </div>
+</div>
 
         {/* Pull Quote */}
         <div className="bg-[#0f2e26] p-12 md:p-16 my-16 rounded-lg">
           <blockquote className="font-['Playfair_Display'] text-3xl md:text-4xl text-[#f4efe6] leading-relaxed text-center italic">
-            "Durability of compounding matters more than maximizing any single year's return."
+            "Competitive returns do not require fragile design."
           </blockquote>
         </div>
 

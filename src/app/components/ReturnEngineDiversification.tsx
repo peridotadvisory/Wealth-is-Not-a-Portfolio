@@ -22,31 +22,31 @@ export function ReturnEngineDiversification() {
           Return Engine Diversification
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 mb-16">
-          <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
-            <p>
-              Traditional portfolios diversify across assets. Capital systems diversify across return mechanisms.
-            </p>
-            <p>
-              An asset is a claim on future cash flows. A return mechanism is the structural reason those cash flows exist. Public equities derive returns from earnings growth and multiple expansion. Private businesses derive returns from operational improvement and strategic positioning. Private credit derives returns from contractual yield and structural seniority.
-            </p>
-            <p>
-              These are fundamentally different engines. They respond to different forces. They fail for different reasons. A capital system builds exposure to multiple mechanisms, not merely multiple assets within the same mechanism.
-            </p>
-          </div>
+       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 mb-16">
+  <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
+    <p>
+      Traditional portfolios diversify across assets. Capital systems diversify across failure modes.
+    </p>
+    <p>
+      That distinction matters. Two holdings may have different names, sectors, or wrappers, yet still depend on the same underlying return environment. In that case, they are diversified in form, but not in mechanism.
+    </p>
+    <p>
+      The Enduring Value Framework seeks multiple engines, not multiple wrappers. Public markets, enterprise cash flow, structural income, private credit, and opportunistic deployment do not fail for the same reasons or on the same timetable.
+    </p>
+  </div>
 
-          <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
-            <p>
-              The portfolio-only approach concentrates risk in market-based mechanisms. When sentiment shifts, all market-based returns decline in tandem. The system approach distributes risk across mechanisms that do not share common failure modes.
-            </p>
-            <p>
-              This is not about maximizing the number of holdings. It is about ensuring that no single mechanism represents catastrophic exposure. A portfolio with 1,000 stocks is still a single-engine system if all 1,000 depend on the same return mechanism.
-            </p>
-            <p>
-              Return engine diversification is the difference between fragility and resilience.
-            </p>
-          </div>
-        </div>
+  <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
+    <p>
+      This is why regime leadership rotates. Different environments reward different forms of capital. A one-engine system must be correct repeatedly. A multi-engine system can remain functional while leadership changes.
+    </p>
+    <p>
+      The objective is not complexity for its own sake. It is resilience through differentiated mechanisms.
+    </p>
+    <p>
+      More engines do not automatically create strength. But more independent engines can materially reduce catastrophic dependence on any single source of return.
+    </p>
+  </div>
+</div>
 
         {/* Comparison Chart */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-[#e8e2d4] p-8 md:p-12 rounded-lg">
@@ -119,9 +119,8 @@ export function ReturnEngineDiversification() {
         {/* Bottom insight */}
         <div className="mt-12 max-w-3xl mx-auto text-center">
           <p className="font-['Inter'] text-base md:text-lg text-[#1a1a1a]/70 leading-relaxed">
-            More return sources means fewer single points of failure. 
-            The goal is not complexity—it is redundancy.
-          </p>
+  The goal is not more holdings. It is fewer single points of failure.
+</p>
         </div>
 
         {/* Page number */}

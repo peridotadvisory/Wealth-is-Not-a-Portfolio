@@ -12,31 +12,31 @@ export function MarketFragility() {
           Market Fragility
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 mb-16">
-          <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
-            <p>
-              Portfolio theory assumes that markets are mean-reverting over sufficiently long time horizons. And in aggregate, this is true. But aggregates conceal critical details.
-            </p>
-            <p>
-              Individual investors do not experience "the long run" as a statistical abstraction. They experience it as a sequence of discrete periods—some prosperous, others catastrophic. A portfolio that loses 50% requires a 100% gain just to return to breakeven. Compounding does not forgive deep drawdowns.
-            </p>
-            <p>
-              The past quarter-century has delivered three systemic shocks that revealed the fragility inherent in portfolio-only strategies. Each shock followed a similar pattern: correlations converge, diversification disappears, and capital erodes in synchronized fashion.
-            </p>
-          </div>
+       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 mb-16">
+  <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
+    <p>
+      The portfolio recovery story is real. Markets do recover over time. But drawdowns still matter, because investors do not experience return series as clean long-term averages. They experience them as a sequence.
+    </p>
+    <p>
+      That sequence matters. A portfolio that declines sharply must recover from a smaller capital base. A 50% loss requires a 100% gain just to return to breakeven. Compounding does not ignore deep interruptions.
+    </p>
+    <p>
+      This is why path dependence matters. The order in which returns occur can materially shape outcomes, especially when withdrawals, liquidity needs, or outside pressures are present.
+    </p>
+  </div>
 
-          <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
-            <p>
-              What distinguished those who survived from those who did not was not superior market timing or better asset selection. It was the presence of capital engines independent of market sentiment.
-            </p>
-            <p>
-              Operating businesses. Cash-flowing real estate. Private credit with structural protections. These are not "alternative investments." They are structural capital—assets that generate returns through mechanisms other than price appreciation.
-            </p>
-            <p>
-              The families and institutions that endured these shocks did so because they had built systems, not portfolios.
-            </p>
-          </div>
-        </div>
+  <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
+    <p>
+      Fragility is exposed when too many responsibilities are placed on one engine. When growth capital is also expected to fund liquidity, income, lifestyle, and opportunity, market stress becomes system stress.
+    </p>
+    <p>
+      What distinguished those who endured past dislocations was not simply better selection or better timing. It was the presence of capital engines not dependent on market repricing alone.
+    </p>
+    <p>
+      Structural capital, income-producing assets, liquidity reserves, and non-market-dependent cash flows do not eliminate stress. But they reduce the likelihood that stress becomes forced liquidation.
+    </p>
+  </div>
+</div>
 
         {/* Timeline */}
         <div className="relative mt-16">

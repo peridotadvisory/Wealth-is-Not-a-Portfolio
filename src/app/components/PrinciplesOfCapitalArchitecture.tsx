@@ -1,34 +1,33 @@
 import { PrincipleBlock } from "./PrincipleBlock";
 
 export function PrinciplesOfCapitalArchitecture() {
-  const principles = [
-    {
-      number: "PRINCIPLE I",
-      title: "Multiple Return Engines",
-      description: "Wealth systems should generate returns from multiple independent sources rather than relying on a single market engine."
-    },
-    {
-      number: "PRINCIPLE II",
-      title: "Structural Resilience Before Optimization",
-      description: "The foundation of a capital system should prioritize durability before maximizing returns."
-    },
-    {
-      number: "PRINCIPLE III",
-      title: "Liquidity as Strategic Optionality",
-      description: "Liquidity allows capital systems to adapt and deploy during periods of opportunity."
-    },
-    {
-      number: "PRINCIPLE IV",
-      title: "Volatility as a Deployment Mechanism",
-      description: "Market fluctuations create the conditions for disciplined capital deployment."
-    },
-    {
-      number: "PRINCIPLE V",
-      title: "Enterprise Capital as the Primary Wealth Engine",
-      description: "Operating businesses remain the most powerful engine of long-term wealth creation."
-    },
-  ];
-
+ const principles = [
+  {
+    number: "PRINCIPLE I",
+    title: "Calibration Over Standardization",
+    description: "Capital systems should not be one-size-fits-all. Growth needs, income requirements, liquidity demands, and time horizons differ materially across investors."
+  },
+  {
+    number: "PRINCIPLE II",
+    title: "Structure Before Performance",
+    description: "A well-designed system prioritizes integrity, access, and continuity before optimizing for output."
+  },
+  {
+    number: "PRINCIPLE III",
+    title: "Multiple Engines, Distinct Roles",
+    description: "Capital should be organized by function. Different engines should serve liquidity, stability, optionality, and growth rather than forcing one engine to do everything."
+  },
+  {
+    number: "PRINCIPLE IV",
+    title: "Liquidity as Strategic Optionality",
+    description: "Liquidity is not idle capital. It is what allows a system to respond, endure, and deploy when conditions become favorable."
+  },
+  {
+    number: "PRINCIPLE V",
+    title: "Continuity as the Basis of Compounding",
+    description: "Compounding does not depend on return alone. It depends on whether the system can remain intact long enough to capture and retain those returns."
+  },
+];
   return (
     <div className="min-h-screen bg-white px-6 md:px-12 py-16 md:py-24">
       <div className="max-w-7xl mx-auto">
@@ -38,9 +37,8 @@ export function PrinciplesOfCapitalArchitecture() {
 
         <div className="max-w-4xl mx-auto mb-12">
           <p className="font-['Inter'] text-base md:text-lg text-[#1a1a1a]/80 leading-relaxed text-center">
-            Capital architecture is the practice of designing financial systems that endure. 
-            These principles guide the construction of capital systems built for long-term durability.
-          </p>
+  Capital architecture is the practice of designing systems that can endure, adapt, and compound across changing conditions. These principles guide that design.
+</p>
         </div>
 
         <div className="grid grid-cols-1 gap-12 md:gap-16 max-w-5xl mx-auto">

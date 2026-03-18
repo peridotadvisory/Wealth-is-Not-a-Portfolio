@@ -11,14 +11,14 @@ export function AboutTheFramework() {
 
         <div className="max-w-3xl mx-auto space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
           <p>
-            The Enduring Value Framework (EVF) is a design philosophy for structuring capital systems that endure across market regimes.
-          </p>
-          <p>
-            Rather than focusing solely on portfolio allocation, EVF emphasizes capital architecture — integrating enterprise capital, market investments, structural capital, liquidity, and opportunistic strategies into a resilient financial system.
-          </p>
-          <p>
-            Peridot Advisory works with entrepreneurs and families to design and implement capital systems built for long-term durability and generational continuity.
-          </p>
+  The Enduring Value Framework (EVF) is a capital design philosophy for entrepreneurs, executives, and families seeking enduring architecture rather than portfolio management alone.
+</p>
+<p>
+  It expands the aperture beyond portfolio theory by organizing capital across foundation, stability, and expansion—each serving a distinct role inside a coordinated system.
+</p>
+<p>
+  Peridot Advisory uses this framework to help design capital systems built for durability, adaptability, and long-term continuity.
+</p>
         </div>
 
         {/* Bottom divider */}

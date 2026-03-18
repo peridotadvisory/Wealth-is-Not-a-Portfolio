@@ -18,8 +18,8 @@ export function GolfSwingAnalogy() {
               Backswing
             </h3>
             <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/80 leading-relaxed">
-              Markets move. Volatility is not a failure of strategy—it is the precondition for opportunity. The backswing prepares the system.
-            </p>
+  Structure begins before force. In golf, the backswing creates sequence, positioning, and control. In capital systems, liquidity, stability, and access play the same role.
+</p>
           </div>
 
           <div className="text-center">
@@ -27,8 +27,8 @@ export function GolfSwingAnalogy() {
               Impact
             </h3>
             <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/80 leading-relaxed">
-              The moment of contact. Capital deployed at inflection points. This is where disciplined systems outperform reactive portfolios.
-            </p>
+  Impact is where force transfers. In capital design, this is where well-positioned capital meets opportunity. Without sequencing, force is wasted. With sequencing, output becomes repeatable.
+</p>
           </div>
 
           <div className="text-center">
@@ -36,16 +36,15 @@ export function GolfSwingAnalogy() {
               Follow-through
             </h3>
             <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/80 leading-relaxed">
-              Compounding takes over. The follow-through is not optional—it is what transforms a swing into distance. Systems complete the arc.
-            </p>
+  Follow-through is what converts contact into distance. In capital systems, compounding only persists when the system remains intact after deployment. Continuity is what turns a good decision into lasting progress.
+</p>
           </div>
         </div>
 
         <div className="mt-12 md:mt-16 text-center max-w-3xl mx-auto">
           <p className="font-['Inter'] text-base md:text-lg text-[#f4efe6]/70 leading-relaxed italic">
-            A golf swing is not three separate motions. It is one continuous system. 
-            Remove any phase, and the ball goes nowhere. The same is true of capital.
-          </p>
+  A golf swing is not raw force. It is sequencing. The same is true of capital. Return without structure is unstable. Compounding is return multiplied by continuity.
+</p>
         </div>
 
         {/* Page number */}

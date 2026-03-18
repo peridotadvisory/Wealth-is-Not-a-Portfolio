@@ -15,14 +15,13 @@ export function Conclusion() {
 
         {/* Main message */}
         <h2 className="font-['Playfair_Display'] text-5xl md:text-6xl lg:text-7xl text-[#f4efe6] mb-8 tracking-wide leading-tight">
-          Capital systems endure.
+          Compounding depends on continuity.
         </h2>
 
         <div className="w-32 h-px bg-[#b8a66a] mx-auto mb-12" />
 
         <p className="font-['Inter'] text-lg md:text-xl text-[#f4efe6]/70 leading-relaxed max-w-2xl mx-auto mb-24">
-          Portfolios are optimized for efficiency. Systems are optimized for survival. 
-          In the long run, survival is the only efficiency that matters.
+          Compounding is not a function of return alone. It is a function of continuity. And continuity is a function of architecture.
         </p>
 
         {/* Footer branding */}

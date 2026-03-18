@@ -8,34 +8,31 @@ export function EnduringValueFramework() {
           The Enduring Value Framework
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 mb-16">
-          <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
-            <p>
-              The Enduring Value Framework is not a set of investment products. It is an architectural philosophy for organizing capital into systems that compound across cycles.
-            </p>
-            <p>
-              The framework is built in two layers: a foundation layer designed for protection and optionality, and a growth layer designed for compounding and opportunity capture.
-            </p>
-            <p>
-              The foundation layer does not seek maximum returns. It seeks resilience. It provides liquidity when markets seize. It generates income when growth stalls. It holds structural capital that maintains value independent of sentiment.
-            </p>
-            <p>
-              The growth layer operates differently. It takes concentrated positions. It deploys capital into enterprises. It accepts volatility as the cost of asymmetric opportunity.
-            </p>
-          </div>
+       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 mb-16">
+  <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
+    <p>
+      The Enduring Value Framework is not an allocation model. It is a system design for organizing capital across distinct roles.
+    </p>
+    <p>
+      The framework is built in three coordinated layers: foundation architecture, stability engines, and expansion engines.
+    </p>
+    <p>
+      Foundation architecture governs structural integrity. It determines whether capital can endure. Stability engines provide access, income, resilience, and optionality. Expansion engines pursue growth, asymmetry, and long-term progression.
+    </p>
+  </div>
 
-          <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
-            <p>
-              Together, these layers create a system that can withstand drawdowns without abandoning growth. The foundation stabilizes. The growth layer compounds. Neither alone is sufficient.
-            </p>
-            <p>
-              This is the essential insight: wealth is not preserved by avoiding risk. It is preserved by building systems that can absorb risk in one layer while capturing opportunity in another.
-            </p>
-            <p>
-              The EVF separates what must be protected from what should be deployed. It acknowledges that volatility is not the enemy—fragility is.
-            </p>
-          </div>
-        </div>
+  <div className="space-y-6 font-['Inter'] text-base md:text-lg text-[#1a1a1a] leading-relaxed">
+    <p>
+      These components are layered intentionally. They are not interchangeable. A growth engine should not be asked to perform the role of a reserve system, and a reserve system should not be burdened with the expectations of a concentrated growth engine.
+    </p>
+    <p>
+      Structure determines whether the system remains intact across environments. The objective is not simply to maximize output. It is to ensure that capital can continue functioning, adapting, and compounding across time.
+    </p>
+    <p>
+      This is the shift from portfolio construction to capital architecture.
+    </p>
+  </div>
+</div>
 
         {/* EVF Signature Diagram */}
         <div className="my-16 md:my-20">
@@ -44,9 +41,8 @@ export function EnduringValueFramework() {
           </h3>
           <EVFDiagram />
           <p className="font-['Inter'] text-sm md:text-base text-[#1a1a1a]/70 text-center mt-8 max-w-3xl mx-auto italic">
-            Capital flows through the arc of market cycles. The foundation layer provides stability. 
-            The growth engines pursue opportunity. Together, they form a system designed to endure.
-          </p>
+  Foundation preserves integrity. Stability preserves function. Expansion pursues progression. Together, they form a coordinated system designed to endure across environments.
+</p>
         </div>
 
         {/* Page number */}
