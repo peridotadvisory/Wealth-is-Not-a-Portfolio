@@ -18,39 +18,24 @@ import { Conclusion } from "./components/Conclusion";
 
 export default function App() {
   return (
-    <div className="w-full">
-      {/* Cover Page */}
+    <main className="bg-[#f4efe6] text-[#1a1a1a]">
       <Cover />
-      
-      {/* Table of Contents */}
       <TableOfContents />
-      
-      {/* Main Content Pages */}
       <ExecutiveSummary />
       <PortfolioIllusion />
       <MarketFragility />
-      
-      {/* Section Divider before Golf Swing */}
       <SectionDivider />
-      
       <GolfSwingAnalogy />
       <FamilyOfficeCapitalSystems />
       <EnduringValueFramework />
-      
-      {/* NEW: Principles of Capital Architecture */}
       <PrinciplesOfCapitalArchitecture />
-      
       <CapitalArchitecture />
       <ReturnEngineDiversification />
       <CompetitiveReturns />
       <ImplicationsForEntrepreneurs />
       <KeyInsights />
-      
-      {/* NEW: About the Framework section */}
       <AboutTheFramework />
-      
-      {/* Closing Page */}
       <Conclusion />
-    </div>
+    </main>
   );
 }
