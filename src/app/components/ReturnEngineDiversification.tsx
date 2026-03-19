@@ -58,6 +58,7 @@ export function ReturnEngineDiversification() {
         </div>
 
         <p className="font-['Inter'] text-base md:text-lg text-[#1a1a1a]/70 leading-relaxed">
+          Different capital engines lead in different environments. Diversified capital systems are designed to operate across regimes.<br></br>
           The goal is not more holdings. It is fewer single points of failure.
         </p>
       </div>
