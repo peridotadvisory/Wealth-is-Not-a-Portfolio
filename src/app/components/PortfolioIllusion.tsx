@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 export function PortfolioIllusion() {
+  const [open, setOpen] = useState(false);
+
   return (
     <section className="min-h-screen bg-[#f4efe6] px-6 md:px-12 lg:px-16 py-16 md:py-20 flex flex-col justify-between">
       <div className="max-w-7xl mx-auto w-full">
@@ -55,41 +59,15 @@ export function PortfolioIllusion() {
               </p>
             </div>
 
-            <div className="relative bg-white rounded-lg border border-[#e8e2d4] overflow-hidden">
-              import { useState } from "react";
-
-export function PortfolioIllusion() {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <>
-      {/* EXISTING SECTION */}
-      <div
-        className="relative bg-white rounded-lg border border-[#e8e2d4] overflow-hidden cursor-zoom-in"
-        onClick={() => setOpen(true)}
-      >
-        <img
-          src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.jpg`}
-          alt="Exhibit A"
-          className="w-full h-auto"
-        />
-      </div>
-
-      {/* FULLSCREEN MODAL */}
-      {open && (
-        <div
-          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
-          onClick={() => setOpen(false)}
-        >
-          <img
-            src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.jpg`}
-            className="max-w-full max-h-full object-contain"
-          />
-        </div>
-      )}
-    </>
-  );
-}
+            <div
+              className="relative bg-white rounded-lg border border-[#e8e2d4] overflow-hidden cursor-zoom-in"
+              onClick={() => setOpen(true)}
+            >
+              <img
+                src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.jpg`}
+                alt="Exhibit A: The Portfolio Argument"
+                className="w-full h-auto"
+              />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
@@ -111,12 +89,6 @@ export function PortfolioIllusion() {
                 </p>
               </div>
             </div>
-
-            <p className="mt-4 font-['Inter'] text-sm text-[#1a1a1a]/60">
-              This exhibit illustrates the traditional portfolio argument. The
-              Enduring Value Framework extends this by addressing how capital
-              systems function during drawdowns.
-              </p>
 
             <p className="mt-6 text-center font-['Playfair_Display'] text-2xl md:text-3xl text-[#0f2e26] italic leading-relaxed">
               A portfolio may recover. A system must endure.
@@ -159,6 +131,24 @@ export function PortfolioIllusion() {
           4
         </span>
       </div>
+
+      {open && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 cursor-zoom-out"
+          onClick={() => setOpen(false)}
+        >
+          <div className="max-w-[95vw] max-h-[95vh] flex flex-col items-center">
+            <p className="text-white text-xs mb-3 md:hidden">
+              Rotate your device for optimal viewing
+            </p>
+            <img
+              src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.jpg`}
+              alt="Exhibit A expanded"
+              className="max-w-full max-h-[90vh] object-contain"
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 }
