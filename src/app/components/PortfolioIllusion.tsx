@@ -57,7 +57,7 @@ export function PortfolioIllusion() {
 
             <div className="relative bg-white rounded-lg border border-[#e8e2d4] overflow-hidden">
               <img
-                src="/images/charts/exhibit-a-portfolio-argument.jpg"
+                src="/Wealth-is-Not-a-Portfolio/images/charts/exhibit-a-portfolio-argument.jpg"
                 alt="Exhibit A: The Portfolio Argument"
                 className="w-full h-auto"
               />
