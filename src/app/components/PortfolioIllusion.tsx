@@ -53,7 +53,7 @@ export function PortfolioIllusion() {
               </h3>
               <p className="font-['Inter'] text-sm md:text-base text-[#1a1a1a]/70 leading-relaxed max-w-4xl">
                 The Stock Market is regarding as one of the most powerful and consistent wealth generating engines in history - and for good reason. 
-                The Enduring Value Framework does not reject this principle. It asks a different question: How do mean reverting returns over cycles interact with lived reality?
+                The Enduring Value Framework does not reject this belief. It asks a different question: How do mean reverting returns over cycles interact with lived reality?
               </p>
             </div>
 
