@@ -140,7 +140,7 @@ export function PortfolioIllusion() {
               Rotate your device for optimal viewing
             </p>
             <img
-              src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.jpg`}
+              src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.png`}
               alt="Exhibit A expanded"
               className="max-w-full max-h-[90vh] object-contain"
             />
