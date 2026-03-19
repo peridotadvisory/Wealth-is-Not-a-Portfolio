@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="190" viewBox="0 0 200 190">
+  <!-- Balanced stance legs (thick, solid white, no outline) -->
+  <!-- Trailing (back) leg - more vertical, slightly left -->
+  <path 
+    d="M 50,115 L 38.5,169" 
+    fill="transparent" 
+    stroke="#FFFFFF" 
+    stroke-width="9.8" 
+    stroke-linecap="round" />
+
+  <!-- Leading (front) leg - angled toward target (right) -->
+  <path 
+    d="M 50,115 L 65.5,169" 
+    fill="transparent" 
+    stroke="#FFFFFF" 
+    stroke-width="9.8" 
+    stroke-linecap="round" />
+
+  <!-- Shoes / feet (flat, grounded, solid white) -->
+  <!-- Trailing foot (slightly left) -->
+  <rect 
+    x="28" 
+    y="166.5" 
+    width="15.5" 
+    height="5" 
+    rx="1.8" 
+    fill="#FFFFFF" />
+
+  <!-- Leading foot (toward right) -->
+  <rect 
+    x="59.5" 
+    y="166.5" 
+    width="15.5" 
+    height="5" 
+    rx="1.8" 
+    fill="#FFFFFF" />
+
+  <!-- Torso (solid white, slight forward lean toward ball, no stroke) -->
+  <!-- Hips ~18 units wide, shoulders ~13 units wide and shifted slightly right for address posture -->
+  <path 
+    d="M 41.2,115 L 44.8,71 L 57.8,71 L 59.1,115 Z" 
+    fill="#FFFFFF" />
+
+  <!-- Arm (merged silhouette arm holding grip, solid white, no outline) -->
+  <!-- From right shoulder down-forward to grip position -->
+  <path 
+    d="M 54.5,73 L 64.2,80.5" 
+    fill="transparent" 
+    stroke="#FFFFFF" 
+    stroke-width="5.7" 
+    stroke-linecap="round" />
+
+  <!-- Head (clean circular silhouette) -->
+  <circle 
+    cx="50.5" 
+    cy="57.8" 
+    r="8.6" 
+    fill="#FFFFFF" />
+
+  <!-- Golfer cap visor (protruding forward/right to indicate side profile facing right) -->
+  <!-- Simple flat brim shape extending to the right -->
+  <path 
+    d="M 46.5,49.8 L 54.8,48.5 L 63.5,48.8 L 65.2,51.8 L 54.5,53.2 Z" 
+    fill="#FFFFFF" />
+
+  <!-- Club shaft (thin, angled down-right to address position, solid white) -->
+  <!-- Grip at hand position → hosel just above ground near ball -->
+  <path 
+    d="M 64.2,80.5 L 105.5,158.5" 
+    fill="transparent" 
+    stroke="#FFFFFF" 
+    stroke-width="2.35" 
+    stroke-linecap="round" />
+
+  <!-- Club head (flat iron-style blade, grounded, horizontal-ish for address, solid white) -->
+  <!-- Heel attached to shaft end, toe extending right under ball area -->
+  <path 
+    d="M 104.8,157.2 L 123.5,157.8" 
+    fill="transparent" 
+    stroke="#FFFFFF" 
+    stroke-width="3.85" 
+    stroke-linecap="round" />
+
+  <!-- Golf ball (small, perfectly round, positioned ready for strike, solid white) -->
+  <!-- Placed immediately right of club head, grounded -->
+  <circle 
+    r="3.05" 
+    cx="127.2" 
+    cy="157.8" 
+    fill="#FFFFFF" />
+
+</svg>
