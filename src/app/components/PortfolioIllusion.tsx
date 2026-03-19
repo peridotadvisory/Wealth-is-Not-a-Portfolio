@@ -62,7 +62,7 @@ export function PortfolioIllusion() {
               onClick={() => setOpen(true)}
             >
               <img
-                src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.jpg`}
+                src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.png`}
                 alt="Exhibit A: The Portfolio Argument"
                 className="w-full h-auto"
               />
