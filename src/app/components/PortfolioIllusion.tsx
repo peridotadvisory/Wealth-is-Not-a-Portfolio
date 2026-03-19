@@ -56,11 +56,40 @@ export function PortfolioIllusion() {
             </div>
 
             <div className="relative bg-white rounded-lg border border-[#e8e2d4] overflow-hidden">
-              <img
-                src="/Wealth-is-Not-a-Portfolio/images/charts/exhibit-a-portfolio-argument.jpg"
-                alt="Exhibit A: The Portfolio Argument"
-                className="w-full h-auto"
-              />
+              import { useState } from "react";
+
+export function PortfolioIllusion() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      {/* EXISTING SECTION */}
+      <div
+        className="relative bg-white rounded-lg border border-[#e8e2d4] overflow-hidden cursor-zoom-in"
+        onClick={() => setOpen(true)}
+      >
+        <img
+          src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.jpg`}
+          alt="Exhibit A"
+          className="w-full h-auto"
+        />
+      </div>
+
+      {/* FULLSCREEN MODAL */}
+      {open && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          onClick={() => setOpen(false)}
+        >
+          <img
+            src={`${import.meta.env.BASE_URL}images/charts/exhibit-a-portfolio-argument.jpg`}
+            className="max-w-full max-h-full object-contain"
+          />
+        </div>
+      )}
+    </>
+  );
+}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
@@ -87,7 +116,7 @@ export function PortfolioIllusion() {
               This exhibit illustrates the traditional portfolio argument. The
               Enduring Value Framework extends this by addressing how capital
               systems function during drawdowns.
-            </p>
+              </p>
 
             <p className="mt-6 text-center font-['Playfair_Display'] text-2xl md:text-3xl text-[#0f2e26] italic leading-relaxed">
               A portfolio may recover. A system must endure.
