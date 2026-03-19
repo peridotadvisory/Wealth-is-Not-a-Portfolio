@@ -52,7 +52,7 @@ export function PortfolioIllusion() {
                 Examining the Nuance
               </h3> 
               <p className="font-['Inter'] text-sm md:text-base text-[#1a1a1a]/70 leading-relaxed max-w-4xl">
-                The Stock Market is regarding as one of the most powerful and consistent wealth generating engines in history - and for good reason. 
+                The Stock Market is regarded as one of the most powerful and consistent wealth generating engines in history - and for good reason. 
                 The Enduring Value Framework does not reject this belief. It asks a different question:<br></br><i>Over a defined cycle, how well do mean-reverting returns reflect lived reality?</i>
               </p>
             </div>
